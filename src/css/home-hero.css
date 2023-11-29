@@ -43,6 +43,7 @@ color: var(--color-text-platform);
 }
 
 .char-desc-header {
+  width: 66px;
   display: inline-block;
   font-size: 12px;
   line-height: 1.16667;
@@ -50,6 +51,7 @@ color: var(--color-text-platform);
 }
 
 .char-desc {
+  width: 110px;
   display: inline-block;
   color: var(--color-text-char-desc);
   font-size: 12px;

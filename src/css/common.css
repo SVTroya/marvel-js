@@ -65,6 +65,16 @@ body {
   pointer-events: none;
 }
 
+.common-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+
+  transition: background-color var(--trsnsition-duration) var(--transition-function),
+  color var(--trsnsition-duration) var(--transition-function);
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-size: 16px;

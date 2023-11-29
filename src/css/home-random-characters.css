@@ -56,8 +56,9 @@
 }
 
 #home-random-character .btn-all-chars-link {
+  width: 162px;
+  height: 38px;
   margin-top: 20px;
-  background-color: transparent;
   border: 1px solid var(--color-btn-all);
   margin-left: auto;
 }
@@ -65,6 +66,8 @@
 #home-random-character .btn-all-chars-text {
   font-size: 14px;
   line-height: 1.28571;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 768px) {
@@ -83,7 +86,14 @@
   }
 
   #home-random-character .btn-all-chars-link {
+    width: 170px;
+    height: 42px;
     margin-top: 32px;
+  }
+
+  #home-random-character .btn-all-chars-text {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 

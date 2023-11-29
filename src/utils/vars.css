@@ -1,9 +1,20 @@
 :root {
   --color-bcg: #0C0B0B;
+  --color-bcg-light: #FAFAFA;
   --color-text-primary: #FAFAFA;
   --color-text-platform: #FFFFFFB2;
   --color-text-char-desc: #FAFAFA80;
+  --color-divider: #FAFAFA26;
+  --color-active: #4B50AD;
+  --color-btn-all: #FAFAFA4D;
+
+  --color-accent-first: #34387F;
+  --color-accent-second: #600404;
+  --color-accent-third: #5B7F3C;
 
   --font-primary: 'Poppins', sans-serif;
+
+  --trsnsition-duration: 300ms;
+  --transition-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
 }
 

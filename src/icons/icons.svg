@@ -1,11 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="icon-arrow" viewBox="0 0 34 32">
-      <path d="M25.588 15.206 15.275 25.519l-1.097-1.097 10.313-10.313H14.178v-1.552H27.14v12.962h-1.552V15.206z"/>
-    </symbol>
-    <symbol id="icon-divider" viewBox="0 0 1013 32">
+    <symbol id="icon-arrow" viewBox="0 0 32 32">
+      <path d="M27.482 7.059l-24 24-2.541-2.541 24-24h-24v-3.576h30.118v30.118h-3.576v-24z"/>
       <path
-        d="M26.667 13.333 0 .604v30.792l26.667-12.729v-5.333zm960 5.334 26.667 12.729V.604l-26.667 12.729v5.333zM24 18.667h965.333v-5.333H24v5.333z"/>
+        d="M3.482 31.435l-2.918-2.918 23.812-23.718h-23.624v-4.047h30.588v30.588h-4.047v-23.718l-23.812 23.812zM27.671 30.871h3.106v-29.647h-29.553v3.106h24.282l-24.188 24.188 2.259 2.259 24.094-24.282v24.376z"/>
+    </symbol>
+    <symbol id="icon-divider-right" viewBox="0 0 32 32">
+      <path d="M-0.259 18.812l32.323 13.253v-32.323l-32.323 13.511z"/>
+    </symbol>
+    <symbol id="icon-divider-left" viewBox="0 0 32 32">
+      <path d="M32.256 13.376l-32-13.12v32l32-12.8z"/>
     </symbol>
     <symbol id="icon-search" viewBox="0 0 32 32">
       <path

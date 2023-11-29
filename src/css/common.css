@@ -72,7 +72,7 @@ body {
   border-radius: 50px;
 
   transition: background-color var(--trsnsition-duration) var(--transition-function),
-  color var(--trsnsition-duration) var(--transition-function);
+  color var(--trsnsition-duration) ease-in-out;
 }
 
 @media only screen and (min-width: 768px) {

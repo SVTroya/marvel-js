@@ -24,6 +24,13 @@
   border: solid 1px var(--color-divider);
   border-radius: 6px;
   fill: var(--color-text-primary);
+
+  transition: background-color var(--trsnsition-duration) ease-in-out;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-social-active);
 }
 
 .policy-link {
@@ -33,13 +40,20 @@
   height: 44px;
   margin-top: 40px;
   background-color: var(--color-policy-bcg);
+  color: var(--color-policy-text);
+
+  transition: color var(--trsnsition-duration) ease-in-out;
+}
+
+.policy-link:hover,
+.policy-link:focus {
+  color: var(--color-text-primary);
 }
 
 .policy-text {
   font-size: 10px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-policy-text);
 }
 
 @media only screen and (min-width: 768px) {
@@ -84,7 +98,12 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .footer-content-wrapper {
+    padding: 0 32px;
+  }
+
   .site-desc {
+    width: 90px;
     margin-left: 425px;
   }
 

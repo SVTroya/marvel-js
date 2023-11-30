@@ -1,0 +1,133 @@
+@import url('./common.css'); /* COMMON */
+
+#characters-hero.section {
+  height: 509px;
+  padding-bottom: 20px;
+  background-image: url("../images/characters-hero/mob-hero-bcg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  background-image: url("../images/characters-hero/mob-hero-bcg@2x.webp");
+}
+
+#characters-hero .container {
+  height: 100%;
+  position: relative;
+}
+
+#characters-hero .platform {
+  padding-top: 140px;
+  margin-top: 0;
+}
+
+#characters-hero .page-title {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 374px) {
+  #characters-hero .page-title {
+    font-size: 50px;
+  }
+}
+
+#characters-hero .site-description {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.btn-back-home-link {
+  position: absolute;
+  width: 111px;
+  height: 36px;
+  right: 20px;
+  bottom: 0;
+  border: 1px solid var(--color-btn-back-home);
+
+  transition: background-color var(--trsnsition-duration) var(--transition-function);
+}
+
+.btn-back-home-link:hover,
+.btn-back-home-link:focus {
+  background-color: var(--color-social-active);
+}
+
+.btn-back-home-text {
+  font-size: 12px;
+  line-height: 1.33333;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
+@media only screen and (min-width: 768px) {
+  #characters-hero.section {
+    height: 780px;
+    padding-bottom: 32px;
+    background-image: url("../images/characters-hero/tablet-hero-bcg.webp");
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    background-image: url("../images/characters-hero/tablet-hero-bcg@2x.webp");
+  }
+
+  #characters-hero .platform {
+    padding-top: 150px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #characters-hero .page-title {
+    font-size: 128px;
+  }
+
+  #characters-hero .site-description {
+    width: 469px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-back-home-link {
+    position: absolute;
+    width: 131px;
+    height: 42px;
+    right: 32px;
+  }
+
+  .btn-back-home-text {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+}
+
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
+@media only screen and (min-width: 1440px) {
+  #characters-hero.section {
+    padding-bottom: 64px;
+    background-image: url("../images/characters-hero/desk-hero-bcg.webp");
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    background-image: url("../images/characters-hero/desk-hero-bcg@2x.webp");
+  }
+
+  #characters-hero .page-title {
+    font-size: 150px;
+  }
+
+  #characters-hero .site-description {
+    width: 436px;
+    margin-left: 88px;
+    text-align: left;
+  }
+}

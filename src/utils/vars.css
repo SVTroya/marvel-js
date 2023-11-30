@@ -7,15 +7,16 @@
   --color-divider: #FAFAFA26;
   --color-active: #4B50AD;
   --color-btn-all: #FAFAFA4D;
+  --color-btn-back-home: #FAFAFA80;
   --color-search: #FAFAFA4D;
   --color-policy-bcg: #34387F;
   --color-policy-text: #FAFAFA66;
   --color-social-active: #FAFAFA33;
   --color-random-char-divider: #FAFAFA33;
-
   --color-accent-first: #34387F;
   --color-accent-second: #600404;
   --color-accent-third: #5B7F3C;
+  --color-label-text: #FAFAFA4D;
 
   --font-primary: 'Poppins', sans-serif;
 

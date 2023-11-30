@@ -37,6 +37,9 @@ svg {
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-bcg);
   color: var(--color-text-primary);
   font-family: var(--font-primary);
@@ -44,6 +47,10 @@ body {
   line-height: 1.28571;
   letter-spacing: 0;
   font-weight: 400;
+}
+
+main {
+  flex-grow: 10;
 }
 
 .visually-hidden {
@@ -75,6 +82,11 @@ body {
   color var(--trsnsition-duration) ease-in-out;
 }
 
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
 @media only screen and (min-width: 768px) {
   body {
     font-size: 16px;

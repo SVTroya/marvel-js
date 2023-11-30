@@ -3,8 +3,11 @@
   height: 68px;
   width: 100%;
   padding: 20px 0;
-  /*background-color: var(--color-bcg);*/
   z-index: 10;
+}
+
+#header.section.on-scroll {
+  background-color: var(--color-bcg);
 }
 
 #header .container {
@@ -39,6 +42,7 @@
   font-weight: 500;
   line-height: 1.16667;
   text-transform: uppercase;
+  color: var(--color-text-primary);
 }
 
 .search-input::placeholder {
@@ -48,8 +52,22 @@ color: var(--color-text-primary);
 .search-link {
   display: inline-block;
   fill: var(--color-text-primary);
+  transform: scale(1);
+
+  transition: transform var(--trsnsition-duration) ease-in-out;
 }
 
+.search-link:hover,
+.search-link:focus {
+  transform: scale(1.2);
+  /*fill: var(--color-active);*/
+}
+
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
 @media only screen and (min-width: 768px) {
   .search-wrapper {
     width: 130px;

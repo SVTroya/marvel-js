@@ -1,3 +1,7 @@
+/*#footer.section {
+  margin-top: auto;
+}*/
+
 .footer-content-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -56,6 +60,11 @@
   letter-spacing: 0.02em;
 }
 
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
 @media only screen and (min-width: 768px) {
   .footer-content-wrapper {
     margin-top: 64px;
@@ -97,6 +106,11 @@
   }
 }
 
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
 @media only screen and (min-width: 1440px) {
   .footer-content-wrapper {
     padding: 0 32px;

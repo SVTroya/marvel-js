@@ -1,3 +1,5 @@
+@import url('../css/hero.css'); /* HERO COMMON */
+
 .hero-container {
   position: relative;
   display: flex;
@@ -14,24 +16,6 @@
   border-radius: 200px;
   background: linear-gradient(180deg, var(--color-accent-first) 36.46%, rgba(52, 56, 127, 0.00) 100%);
   filter: blur(47px);
-}
-
-.platform {
-  margin-top: 12px;
-  color: var(--color-text-platform);
-  text-transform: uppercase;
-}
-
-.site-title {
-  margin-top: 14px;
-  font-size: 44px;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-.site-description {
-  margin-top: 16px;
 }
 
 #home-hero .btn-all-chars-link {
@@ -178,6 +162,11 @@
   letter-spacing: -0.02em;
 }
 
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
 @media only screen and (min-width: 768px) {
   .hero-container {
     gap: 32px;
@@ -188,20 +177,6 @@
     height: 300px;
     top: 795px;
     left: 388px;
-  }
-
-  .platform {
-    margin-top: 18px;
-  }
-
-  .site-title {
-    width: 538px;
-    margin-top: 16px;
-    font-size: 80px;
-  }
-
-  .site-description {
-    width: 473px;
   }
 
   #home-hero .btn-all-chars-link {
@@ -278,6 +253,11 @@
   }
 }
 
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
 @media only screen and (min-width: 1440px) {
   .hero-container {
     flex-direction: row;
@@ -288,14 +268,6 @@
     top: 257px;
     right: -32px;
     left: unset;
-  }
-
-  .platform {
-    margin-top: 82px;
-  }
-
-  .site-description {
-    width: 527px;
   }
 
   .hero-info-container::after {

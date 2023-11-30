@@ -1,9 +1,10 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 @import url('../utils/vars.css'); /* VARIABLES */
-@import url('../css/common.css'); /* COMMON */
-@import url('../css/containers.css'); /* CONTAINERS */
-@import url('../css/header.css'); /* HEADER */
-@import url('../css/home-hero.css'); /* HERO for HOME */
-@import url('../css/home-random-characters.css'); /* RANDOM CHARACTERS */
-@import url('../css/footer.css'); /* FOOTER */
-@import url('../css/modal.css'); /* MODAL */
+@import url('./common.css'); /* COMMON */
+@import url('../css/hero.css'); /* HERO COMMON */
+@import url('./containers.css'); /* CONTAINERS */
+@import url('./header.css'); /* HEADER */
+@import url('./home-hero.css'); /* HERO for HOME */
+@import url('./home-random-characters.css'); /* RANDOM CHARACTERS */
+@import url('./footer.css'); /* FOOTER */
+@import url('./modal.css'); /* MODAL */

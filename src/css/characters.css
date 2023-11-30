@@ -1,11 +1,11 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 @import url('../utils/vars.css'); /* VARIABLES */
-@import url('../css/common.css'); /* COMMON */
-@import url('../css/containers.css'); /* CONTAINERS */
-@import url('../css/header.css'); /* HEADER */
-@import url('../css/characters-hero.css'); /* HERO for CHARACTERS */
-@import url('../css/characters-filters.css'); /* CHARACTERS FILTERS */
-@import url('../css/characters-list.css'); /* CHARACTERS LIST */
-@import url('../css/characters-pagination.css'); /* CHARACTERS LIST PAGINATION */
-@import url('../css/footer.css'); /* FOOTER */
-@import url('../css/modal.css'); /* MODAL */
+@import url('../css/hero.css'); /* HERO COMMON */
+@import url('./containers.css'); /* CONTAINERS */
+@import url('./header.css'); /* HEADER */
+@import url('./characters-hero.css'); /* HERO for CHARACTERS */
+@import url('./characters-filters.css'); /* CHARACTERS FILTERS */
+@import url('./characters-list.css'); /* CHARACTERS LIST */
+@import url('./characters-pagination.css'); /* CHARACTERS LIST PAGINATION */
+@import url('./footer.css'); /* FOOTER */
+@import url('./modal.css'); /* MODAL */

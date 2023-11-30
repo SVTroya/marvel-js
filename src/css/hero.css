@@ -1,0 +1,53 @@
+.platform {
+  margin-top: 12px;
+  color: var(--color-text-platform);
+  text-transform: uppercase;
+}
+
+.page-title {
+  margin-top: 14px;
+  font-size: 44px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.site-description {
+  margin-top: 16px;
+}
+
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
+@media only screen and (min-width: 768px) {
+  .platform {
+    margin-top: 18px;
+  }
+
+  .page-title {
+    width: 538px;
+    margin-top: 16px;
+    font-size: 80px;
+  }
+
+  .site-description {
+    width: 473px;
+  }
+}
+
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
+@media only screen and (min-width: 1440px) {
+  .platform {
+    margin-top: 82px;
+  }
+
+  .site-description {
+    width: 527px;
+  }
+}

@@ -8,9 +8,9 @@
   background-repeat: no-repeat;
 }
 
-@media only screen and (min-resolution: 192dpi) {
+/*@media only screen and (min-resolution: 192dpi) {
   background-image: url("../images/characters-hero/mob-hero-bcg@2x.webp");
-}
+}*/
 
 #characters-hero .container {
   height: 100%;
@@ -73,9 +73,11 @@
     background-image: url("../images/characters-hero/tablet-hero-bcg.webp");
   }
 
+  /*
   @media only screen and (min-resolution: 192dpi) {
     background-image: url("../images/characters-hero/tablet-hero-bcg@2x.webp");
   }
+  */
 
   #characters-hero .platform {
     padding-top: 150px;
@@ -117,10 +119,10 @@
     background-image: url("../images/characters-hero/desk-hero-bcg.webp");
   }
 
-  @media only screen and (min-resolution: 192dpi) {
+ /* @media only screen and (min-resolution: 192dpi) {
     background-image: url("../images/characters-hero/desk-hero-bcg@2x.webp");
   }
-
+*/
   #characters-hero .page-title {
     font-size: 150px;
   }

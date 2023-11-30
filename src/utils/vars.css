@@ -9,7 +9,7 @@
   --color-btn-all: #FAFAFA4D;
   --color-btn-back-home: #FAFAFA80;
   --color-search: #FAFAFA4D;
-  --color-policy-bcg: #34387F;
+  --color-accent: #34387F;
   --color-policy-text: #FAFAFA66;
   --color-social-active: #FAFAFA33;
   --color-random-char-divider: #FAFAFA33;
@@ -17,7 +17,8 @@
   --color-accent-second: #600404;
   --color-accent-third: #5B7F3C;
   --color-label-text: #FAFAFA4D;
-
+  --color-pagination-btn-bcg: #171717;
+  --color-pagination-btn: #FAFAFA4D;
   --font-primary: 'Poppins', sans-serif;
 
   --trsnsition-duration: 300ms;

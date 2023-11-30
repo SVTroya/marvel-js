@@ -1,4 +1,4 @@
-.section {
+#filters.section {
   padding-top: 38px;
 
   --column-gap: 8px;
@@ -40,7 +40,7 @@
 =================================================================
 */
 @media only screen and (min-width: 768px) {
-  .section {
+  #filters.section {
     padding-top: 64px;
 
     --items-in-row: 4;
@@ -62,7 +62,7 @@
 =================================================================
 */
 @media only screen and (min-width: 1440px) {
-  .section {
+  #filters.section {
     padding-top: 64px;
 
     --column-gap: 16px;

@@ -43,7 +43,7 @@
   align-items: center;
   height: 44px;
   margin-top: 40px;
-  background-color: var(--color-policy-bcg);
+  background-color: var(--color-accent);
   color: var(--color-policy-text);
 
   transition: color var(--trsnsition-duration) ease-in-out;

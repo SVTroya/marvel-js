@@ -1,0 +1,65 @@
+#characters-list.section {
+  padding-top: 40px;
+}
+
+.char-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: minmax(372px, auto);
+  grid-gap: 35px;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.char-item {
+  width: 100%;
+}
+
+.char-img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.char-name {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+}
+
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
+@media only screen and (min-width: 768px) {
+  #characters-list.section {
+    padding-top: 59px;
+  }
+
+  .char-img {
+    height: 445px;
+  }
+
+  .char-name {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
+@media only screen and (min-width: 1440px) {
+  #characters-list.section {
+    padding-top: 64px;
+  }
+
+  .char-list {
+    grid-gap: 64px 16px;
+  }
+}

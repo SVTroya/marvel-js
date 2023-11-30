@@ -1,0 +1,74 @@
+.modal-backdrop {
+}
+
+.modal {
+
+}
+
+.modal .container {
+  width: 335px;
+  padding: 0 20px;
+}
+
+.close-btn {
+  margin: 14px 14px 0 auto;
+}
+
+.hero-imgs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.modal-hero-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.frames-list {
+  display: flex;
+  gap: 8px;
+}
+
+.frame-item {
+}
+
+.frame-img {
+  border-radius: 8px;
+}
+
+.modal-hero-info-wrapper {
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--color-modal-bcg);
+}
+
+.modal-hero-name {
+}
+
+.modal-date {
+}
+
+.modal-hero-desc {
+}
+
+.modal-comics-list {
+}
+
+.comics-list {
+}
+
+.comics-item {
+}
+
+.comics-cover {
+}
+
+.comics-title {
+}
+
+.comics-author {
+}
+
+.loader {
+}

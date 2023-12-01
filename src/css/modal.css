@@ -5,18 +5,29 @@
 
 }
 
-.modal .container {
+.modal.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 40px 20px;
   width: 335px;
-  padding: 0 20px;
+  gap: 16px;
 }
 
 .close-btn {
-  margin: 14px 14px 0 auto;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  fill: var(--color-text-primary);
+
+  &:hover, &:focus {
+    fill: var(--color-accent);
+  }
 }
 
 .hero-imgs-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 8px;
 }
 
@@ -30,45 +41,202 @@
   gap: 8px;
 }
 
-.frame-item {
-}
-
 .frame-img {
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .modal-hero-info-wrapper {
+  padding: 32px 16px;
   width: 100%;
   border-radius: 8px;
   background-color: var(--color-modal-bcg);
 }
 
 .modal-hero-name {
+  display: inline-block;
+}
+
+.hero-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal-hero-name,
+.modal-comics-list-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
 }
 
 .modal-date {
+  color: var(--color-comics-date);
 }
 
 .modal-hero-desc {
+  margin-top: 16px;
 }
 
-.modal-comics-list {
+.modal-comics-list-title {
+  margin-top: 32px;
 }
 
 .comics-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .comics-item {
+  width: 100%;
+  transform: scale(1);
+
+  transition: transform ease-in-out var(--trsnsition-duration);
+
+  &:hover, &:focus {
+    transform: scale(1.03);
+  }
 }
 
 .comics-cover {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .comics-title {
+  margin-top: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
 .comics-author {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.16667;
+  color: var(--color-comics-author);
 }
 
 .loader {
+}
+
+/*
+=================================================================
+    TABLET
+=================================================================
+*/
+@media only screen and (min-width: 768px) {
+  .modal.container {
+    padding: 64px 32px;
+    width: 600px;
+  }
+
+  .close-btn {
+    width: 28px;
+    height: 28px;
+    right: 16px;
+    top: 16px;
+  }
+
+  .hero-imgs-wrapper {
+    flex-direction: row;
+  }
+
+  .modal-hero-img {
+    width: 332px;
+    height: 445px;
+  }
+
+  .frames-list {
+    flex-direction: column;
+  }
+
+  .hero-header-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .modal-hero-name,
+  .modal-comics-list-title {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .modal-date {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  .modal-hero-desc {
+    font-size: 16px;
+    line-height: 1.125;
+  }
+
+  .modal-comics-list-title {
+    margin-top: 64px;
+  }
+
+  .comics-list {
+    flex-direction: row;
+    gap: 19px;
+  }
+
+  .comics-item {
+    width: calc((100% - 2 * 19px) / 3);
+  }
+
+  .comics-cover {
+    width: 100%;
+    height: 200px;
+  }
+
+  .comics-title {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+}
+
+/*
+=================================================================
+    DESKTOP
+=================================================================
+*/
+@media only screen and (min-width: 1440px) {
+  .modal.container {
+    padding: 64px 32px;
+    width: 1000px;
+    flex-direction: row;
+  }
+
+  .hero-imgs-wrapper {
+    flex-direction: column;
+  }
+
+  .frames-list {
+    flex-direction: row;
+  }
+
+  .modal-hero-info-wrapper {
+    height: fit-content;
+  }
+
+  .modal-hero-info-wrapper {
+    width: 588px;
+    margin-top: 0;
+  }
+
+  .comics-list {
+    gap: 16px;
+  }
+
+  .comics-item {
+    width: calc((100% - 2 * 16px) / 3);
+  }
+
+  .comics-cover {
+    width: 174px;
+  }
 }

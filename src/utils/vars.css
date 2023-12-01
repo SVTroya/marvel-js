@@ -2,24 +2,37 @@
   --color-bcg: #0C0B0B;
   --color-bcg-light: #FAFAFA;
   --color-text-primary: #FAFAFA;
+
+  --color-search: #FAFAFA4D;
+
   --color-text-platform: #FFFFFFB2;
   --color-text-char-desc: #FAFAFA80;
   --color-divider: #FAFAFA26;
-  --color-active: #4B50AD;
   --color-btn-all: #FAFAFA4D;
   --color-btn-back-home: #FAFAFA80;
-  --color-search: #FAFAFA4D;
+
+
   --color-accent: #34387F;
-  --color-policy-text: #FAFAFA66;
-  --color-social-active: #FAFAFA33;
-  --color-random-char-divider: #FAFAFA33;
   --color-accent-first: #34387F;
   --color-accent-second: #600404;
   --color-accent-third: #5B7F3C;
+
+  --color-active: #4B50AD;
+
   --color-label-text: #FAFAFA4D;
+
+  --color-random-char-divider: #FAFAFA33;
+
   --color-pagination-btn-bcg: #171717;
-  --color-modal-bcg: #171717;
   --color-pagination-btn: #FAFAFA4D;
+
+  --color-policy-text: #FAFAFA66;
+  --color-social-active: #FAFAFA33;
+
+  --color-modal-bcg: #171717;
+  --color-comics-date: #FAFAFA80;
+  --color-comics-author: #FAFAFA80;
+
   --font-primary: 'Poppins', sans-serif;
 
   --trsnsition-duration: 300ms;
